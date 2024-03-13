@@ -1,0 +1,25 @@
+{
+  "name": "gs0428-utils",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "soo0428's production practice",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./src/index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "pnpm tsc"
+  },
+  "keywords": [],
+  "author": "gs0428",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "typescript": "^5.4.2"
+  }
+}
